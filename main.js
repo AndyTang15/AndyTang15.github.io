@@ -72,11 +72,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Publication HTML
     function renderPub(pub) {
+        // 匹配 images/xxx.任意图片后缀，转为 images/webp/xxx.webp
+        let webpImage = pub.image.replace(/images\/([^\/]+)\.(png|jpg|jpeg)$/i, 'images/webp/$1.webp');
+
         return `
             <table class="publication-table">
             <tr>
                 <td class="pub-img-cell">
-                    <img src="${pub.image}" alt="pub-img" class="pub-img" loading="lazy">
+                    <img src="${webpImage}" alt="pub-img" class="pub-img" loading="lazy">
                 </td>
                 <td class="pub-text-cell">
                     <div class="publication-title">${pub.title}</div>
@@ -92,7 +95,6 @@ document.addEventListener('DOMContentLoaded', function () {
         `;
         // <div class="publication-desc">${pub.description || ''}</div>
     }
-
 
     // Initial render
     renderSelected();
