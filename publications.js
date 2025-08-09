@@ -617,3 +617,4 @@ const publications = [
         topics: ["Multimodal understanding"],
     }
 ];
+module.exports = publications;
