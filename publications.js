@@ -2,7 +2,7 @@ const publications = [
     {
         image: "images/flag3dpp.png",
         title: "FLAG3D++: A Benchmark for 3D Fitness Activity Comprehension With Language Instruction",
-        authors: "Yansong Tang, Aoyang Liu, Jinpeng Liu, Shiyi Zhang, Wenxun Dai, Jie Zhou, Xiu Li, Jiwen Lu",
+        authors: "<strong>Yansong Tang</strong>, Aoyang Liu, Jinpeng Liu, Shiyi Zhang, Wenxun Dai, Jie Zhou, Xiu Li, Jiwen Lu",
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
         year: 2025,
         links: [
@@ -11,7 +11,7 @@ const publications = [
         ],
         description: "We present FLAG3D++, a large-scale benchmark with 3D fitness activities and language instructions, along with a hierarchical model (HL-GCN) that effectively fuses language and pose data for counting and assessing actions, advancing research in human activity understanding.",
         selected: true,
-        topics: ["3D modeling"],
+        topics: ["Multimodal understanding"],
     },
     {
         image: "images/yong-PAMI.png",
@@ -71,7 +71,7 @@ const publications = [
         ],
         description: "OccNeRF is a LiDAR-free method for 3D occupancy prediction that leverages multi-camera images, temporal photometric consistency, and open-vocabulary segmentation for supervision.",
         selected: true,
-        topics: ["3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/tcsvt.png",
@@ -84,7 +84,7 @@ const publications = [
         ],
         description: "We propose InstantDreamer, a text-guided 3D generator that efficiently creates multi-view consistent 3D assets in one step without paired data, outperforming previous methods in speed and quality.",
         selected: true,
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Visual generation"],
     },
     {
         image: "images/stableswap.png",
@@ -111,7 +111,7 @@ const publications = [
             { label: "Code", url: "https://github.com/Jixuan-Fan/Momentum-GS" }
         ],
         description: "We propose Momentum-GS, a self-distillation approach for more accurate and efficient 3D Gaussian Splatting.",
-        topics: ["3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/scorehoi.png",
@@ -121,7 +121,7 @@ const publications = [
         year: 2025,
         links: [],
         description: "We propose ScoreHOI, a framework for human-object interaction reconstruction via score-guided diffusion to enhance the physical plausibility.",
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/anybimanual.png",
@@ -135,7 +135,7 @@ const publications = [
             { label: "Code", url: "https://github.com/Tengbo-Yu/AnyBimanual" }
         ],
         description: "We propose AnyBimanual, a plug-and-play method that transfers pretrained unimanual policy to general bimanual manipulation tasks with few demonstrations.",
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/flashvstream.jpg",
@@ -188,7 +188,7 @@ const publications = [
             { label: "Code", url: "https://github.com/April-Yz/ManiGaussian_Bimanual" }
         ],
         description: "We propose ManiGaussian++, a hierarchical Gaussian world model that captures multi-body dynamics for improved multi-task bimanual manipulation.",
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/flexiact.jpg",
@@ -281,7 +281,7 @@ const publications = [
             { label: "Project Page", url: "https://guanxinglu.github.io/thinkbot/" }
         ],
         description: "We have presented a ThinkBot agent that reasons the thought chain for missing instruction recovery in embodied instruction following (EIF) tasks.",
-        topics: ["Multimodal understanding"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/instarevive.png",
@@ -308,7 +308,7 @@ const publications = [
             { label: "Code", url: "https://github.com/alibaba-yuanjing-aigclab/GeoLRM" }
         ],
         description: "This paper proposes a geometry-aware large reconstruction model for sparse-view reconstruction and 3D generation.",
-        topics: ["3D modeling"],
+        topics: ["Visual generation"],
     },
     {
         image: "images/q-vlm.png",
@@ -335,7 +335,7 @@ const publications = [
             { label: "Code", url: "https://github.com/GuanxingLu/ManiGaussian" }
         ],
         description: "We propose a dynamic Gaussian Splatting method named ManiGaussian for multi-task robotic manipulation, which mines scene dynamics via future scene reconstruction.",
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/motionlcm.png",
@@ -445,7 +445,7 @@ const publications = [
             { label: "Code", url: "https://github.com/RammusLeo/DPMesh" }
         ],
         description: "We propose a new method to exploit diffusion priors for human mesh recovery (HMR) in occlusion and crowded scenarios.",
-        topics: ["Visual generation", "3D modeling"],
+        topics: ["Visual generation"],
     },
     {
         image: "images/flowie.png",
@@ -513,7 +513,7 @@ const publications = [
             { label: "Project Page", url: "https://andytang15.github.io/FLAG3D/" }
         ],
         description: "We present FLAG3D, a large-scale 3D fitness activity dataset with language instruction.",
-        topics: ["Multimodal understanding", "3D modeling"],
+        topics: ["Multimodal understanding"],
     },
     {
         image: "images/LOGO.PNG",
@@ -584,7 +584,7 @@ const publications = [
             { label: "中文解读", url: "https://mp.weixin.qq.com/s/h-8O1kFxX_IVzFB6bCNrvg" }
         ],
         description: "We present Bi-level Neural Volume Fusion, which leverages recent advances in neural implicit representations and neural rendering for dense 3D reconstruction. In order to incrementally integrate new depth maps into a global neural implicit representation, we propose a novel bi-level fusion strategy that considers both efficiency and reconstruction quality by design.",
-        topics: ["3D modeling"],
+        topics: ["Embodied Agent"],
     },
     {
         image: "images/denseclip.png",

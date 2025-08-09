@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const years = [...new Set(publications.map(p => p.year))].sort((a, b) => b - a);
     const topicsSet = new Set();
     publications.forEach(pub => (pub.topics || []).forEach(t => topicsSet.add(t)));
-    const topics = Array.from(topicsSet);
+    // const topics = Array.from(topicsSet);
+    const topics = Array.from(topicsSet).sort((a, b) => a.localeCompare(b));
+
 
     // Render year links
     pubYears.innerHTML = "<strong>Year:</strong> " + years.map(y =>
