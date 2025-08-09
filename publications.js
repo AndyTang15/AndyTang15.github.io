@@ -202,11 +202,12 @@ const publications = [
         authors: "Haipeng Luo*, Qingfeng Sun*, Can Xu#, Pu Zhao, Jianguang Lou, Chongyang Tao, Xiubo Geng, Qingwei Lin, Shifeng Chen#, <strong>Yansong Tang#</strong>, Dongmei Zhang",
         venue: "The Thirteenth International Conference on Learning Representations (<strong>ICLR</strong>)",
         year: "2025",
+        badge: "<span style='color:red;font-weight:bold;'>Oral Presentation</span>",
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2308.09583" },
             { label: "Code", url: "https://github.com/nlpxucan/WizardLM" }
         ],
-        description: "<font color=\"red\"><strong>Oral Presentation</strong></font> We propose a new fully AI-powered automatic reinforcement learning method, Reinforcement Learning from Evol-Instruct Feedback (RLEIF), alongside Math Evol-Instruct and Process Supervision, for improving reasoning performance."
+        description: "We propose a new fully AI-powered automatic reinforcement learning method, Reinforcement Learning from Evol-Instruct Feedback (RLEIF), alongside Math Evol-Instruct and Process Supervision, for improving reasoning performance."
     },
     {
         image: "images/thinkbot.png",
@@ -339,11 +340,12 @@ const publications = [
         authors: "Changyuan Wang, Ziwei Wang, Xiuwei Xu, <strong>Yansong Tang#</strong>, Jie Zhou, Jiwen Lu",
         venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)",
         year: "2024",
+        badge: "<span style='color:red;font-weight:bold;'>Highlight</span>",
         links: [
             { label: "arXiv", url: "https://arxiv.org/pdf/2305.18723.pdf" },
             { label: "Code", url: "https://github.com/ChangyuanWang17/APQ-DM" }
         ],
-        description: "<font color=\"red\"><strong>Highlight</strong></font> We propose an accurate data-free post-training quantization framework of diffusion models (ADP-DM) for efficient image generation."
+        description: "We propose an accurate data-free post-training quantization framework of diffusion models (ADP-DM) for efficient image generation."
     },
     {
         image: "images/aqa-mi.jpg",
@@ -376,11 +378,12 @@ const publications = [
         authors: "Yixuan Zhu, Wenliang Zhao, Ao Li, <strong>Yansong Tang</strong>, Jie Zhou, Jiwen Lu",
         venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)",
         year: "2024",
+        badge: "<span style='color:red;font-weight:bold;'>Oral Presentation</span>",
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2406.00508" },
             { label: "Code", url: "https://github.com/EternalEvan/FlowIE" }
         ],
-        description: "<font color=\"red\"><strong>Oral Presentation</strong></font> We proposed a unified framework for various efficient image enhancement tasks with generative diffusion priors."
+        description: "We proposed a unified framework for various efficient image enhancement tasks with generative diffusion priors."
     },
     {
         image: "images/MCUFormer.PNG",
@@ -517,10 +520,11 @@ const publications = [
         authors: "<strong>Yansong Tang*</strong>, Zanlin Ni*, Jiahuan Zhou, Danyang Zhang, Jiwen Lu, Ying Wu, and Jie Zhou",
         venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)",
         year: "2020",
+        badge: "<span style='color:red;font-weight:bold;'>Oral Presentation</span>",
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2006.07665" },
             { label: "Code", url: "https://github.com/nzl-thu/MUSDL" }
         ],
-        description: "<font color=\"red\"><strong>Oral Presentation</strong></font> We propose an uncertainty-aware score distribution learning method and extend it to a multi-path model for action quality assessment."
+        description: "We propose an uncertainty-aware score distribution learning method and extend it to a multi-path model for action quality assessment."
     }
 ];

@@ -23,12 +23,15 @@ document.addEventListener('DOMContentLoaded', function () {
         if (pub.links && pub.links.length > 0) {
             linksHtml = pub.links.map(link => `<a href="${link.url}">[${link.label}]</a>`).join(' ');
         }
+        let badgeHtml = pub.badge ? `<br>${pub.badge}` : "";
+
         tdContent.innerHTML = `
       <papertitle>${pub.title}</papertitle>
       <br>
       ${pub.authors}
       <br>
       <em>${pub.venue}</em>, ${pub.year}
+      ${badgeHtml}
       <br>
       ${linksHtml}
       <br>
