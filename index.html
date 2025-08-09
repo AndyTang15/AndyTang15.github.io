@@ -12,7 +12,25 @@
   <script src="main.js"></script>
 </head>
 
+<!-- 固定导航栏 -->
+<nav class="top-navbar">
+  <div class="container">
+    <div class="navbar-left">
+      <span class="navbar-title">Yansong Tang</span>
+    </div>
+    <div class="navbar-right">
+      <a href="#home">Home</a>
+      <a href="#publications-anchor">Publications</a>
+      <a href="#datasets">Datasets</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#talks">Workshops</a>
+      <a href="#group">Group</a>
+    </div>
+  </div>
+</nav>
+
 <body>
+  <div id="home"></div>
   <table style="width:100%;max-width:820px;border:0px;border-spacing:0px;border-collapse:separate;margin:auto;">
     <tbody>
       <tr>
@@ -51,75 +69,53 @@
                   </p>
                 </td>
                 <td style="padding:2.5%;width:30%;max-width:30%">
-                  <img style="width:80%;max-width:80%" alt="profile photo" src="images/yansongtang.jpg">
-                </td>
-              </tr>
-            </tbody>
-          </table>
-
-          <!-- News部分 -->
-          <table style="width:100%;border:0px;margin:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>News</heading>
-                  <p>
-                    <li>
-                      <b>2025-01:</b> We are organizing the <a href="https://genbot-workshop.github.io/">"GenBot"</a>
-                      Workshop in ICLR 2025: Generative Models for Robot Learning.
-                    </li>
-                    <li>
-                      <b>2024-07:</b> We have organized <a href="https://venue-tutorial.github.io/">"VENUE"</a>, the
-                      only full-day tutorial in ECCV 2024: Recent Advances in Video Content Understanding and
-                      Generation.
-                    </li>
-                    <li>
-                      <b>2024-06:</b> We have won the Long-form Video Question Answering Challenge of the CVPR2024
-                      LOVEU Workshop.
-                    </li>
-                    <li>
-                      <b>2024-06:</b> We have organized the <a
-                        href="https://mango-workshop.github.io/2024.html">"MANGO"</a> Workshop in CVPR 2024: New Trends
-                      in Multimodal Human Action Perception, Understanding and Generation. The recorded video will be
-                      released soon.
-                    </li>
-                  </p>
+                  <img style="width:100%;max-width:100%" alt="profile photo" src="images/yansongtang.jpg">
                 </td>
               </tr>
             </tbody>
           </table>
 
           <!-- Publications部分（JS动态加载） -->
+          <div id="publications-anchor"></div>
           <table style="width:100%;border:0px;margin:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Recent Selected Publications [<a style="font-size:20px;"
-                      href="https://scholar.google.com/citations?user=TIbistUAAAAJ&hl=zh-CN"> Full List </a>]</heading>
-                  <p>(*Equal Contribution, #Corresponding Author)</p>
+                  <heading>
+                    Selected Publications [<a style="font-size:20px;"
+                      href="https://scholar.google.com/citations?user=TIbistUAAAAJ&hl=zh-CN"> Full List </a>]
+                  </heading>
+                  <div class="pub-switch-row">
+                    <strong>Filter:</strong>
+                    <a href="#" id="show-selected" class="pub-switch active">Show selected</a> /
+                    <a href="#" id="show-date" class="pub-switch">Show by date</a> /
+                    <a href="#" id="show-topic" class="pub-switch">Show by topic</a>
+                  </div>
+                  <div id="pub-years" style="margin:10px 0;"></div>
+                  <div id="pub-topics" style="margin:10px 0;"></div>
+                  <div style="margin-bottom:10px;">(* Equal Contribution, # Corresponding Author)</div>
+                  <!-- 由js进行渲染 -->
+                  <div id="publications-list"></div>
                 </td>
               </tr>
             </tbody>
           </table>
-          <table style="width:100%;border:0px;margin:auto;">
-            <tbody id="publications-list">
-              <!-- JS动态渲染 -->
-            </tbody>
-          </table>
 
           <!-- Dataset部分 -->
+          <div id="datasets"></div>
           <table style="width:100%;border:0px;margin:auto;">
             <tbody>
               <tr>
                 <td style="padding:20px;width:100%;vertical-align:middle">
-                  <heading>Dataset</heading>
+                  <heading>Datasets</heading>
                   <p>
                     <li>COIN: A Large-scale Dataset for Comprehensive Instructional Video Analysis. <a
                         href="https://coin-dataset.github.io/"> [Website] </a> <a
                         href="https://coin-dataset.github.io/"> [Download] </a></li>
                     <li>FLAG3D: A 3D Fitness Activity Dataset with Language Instruction. <a
                         href="https://andytang15.github.io/FLAG3D/"> [Website] </a> <a
-                        href="https://d2c365sdqy.cn/share/base/form/shrcnmEaSaf2qzC5gZTIHlPMR4g"> [Download] </a></li>
+                        href="https://d2c365sdqy.feishu.cn/share/base/form/shrcnmEaSaf2qzC5gZTIHlPMR4g"> [Download] </a>
+                    </li>
                     <li>THU-READ: Tsinghua University RGB-D Egocentric Action Dataset. <a
                         href="https://ivg.au.tsinghua.edu.cn/dataset/THU_READ.php"> [Website] </a> <a
                         href="https://ivg.au.tsinghua.edu.cn/dataset/THU_READ.php"> [Download] </a></li>
@@ -133,6 +129,7 @@
           </table>
 
           <!-- Teaching部分 -->
+          <div id="teaching"></div>
           <table style="width:100%;border:0px;margin:auto;">
             <tbody>
               <tr>
@@ -148,6 +145,37 @@
               </tr>
             </tbody>
           </table>
+
+
+          <!-- News部分 -->
+          <div id="talks"></div>
+          <table style="width:100%;border:0px;margin:auto;">
+            <tbody>
+              <tr>
+                <td style="padding:20px;width:100%;vertical-align:middle">
+                  <heading>Workshops</heading>
+                  <p>
+                    <li>
+                      <b>2025-01:</b> We are organizing the <a href="https://genbot-workshop.github.io/">"GenBot"</a>
+                      workshop in ICLR 2025: Generative Models for Robot Learning.
+                    </li>
+                    <li>
+                      <b>2024-07:</b> We have organized <a href="https://venue-tutorial.github.io/">"VENUE"</a>, the
+                      only full-day tutorial in ECCV 2024: Recent Advances in Video Content Understanding and
+                      Generation.
+                    </li>
+                    <li>
+                      <b>2024-06:</b> We have organized the <a
+                        href="https://mango-workshop.github.io/2024.html">"MANGO"</a> workshop in CVPR 2024:
+                      New Trends in Multimodal Human Action Perception, Understanding and Generation. The recorded video
+                      will be released soon.
+                    </li>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+
 
           <!-- 荣誉部分 -->
           <table style="width:100%;border:0px;margin:auto;">
@@ -170,6 +198,7 @@
           </table>
 
           <!-- Group部分 -->
+          <div id="group"></div>
           <table style="width:100%;border:0px;margin:auto;">
             <tbody>
               <tr>
