@@ -83,7 +83,7 @@ const publications = [
             { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/10963753" },
         ],
         description: "We propose InstantDreamer, a text-guided 3D generator that efficiently creates multi-view consistent 3D assets in one step without paired data, outperforming previous methods in speed and quality.",
-        selected: true,
+        selected: false,
         topics: ["Visual generation"],
     },
     {
@@ -96,7 +96,7 @@ const publications = [
             { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/10444967" },
         ],
         description: "We introduce StableSwap, a reversible autoencoder-based framework for stable and identity-consistent face swapping in a shared latent space, achieving superior performance and region-controllable editing compared to previous methods.",
-        selected: true,
+        selected: false,
         topics: ["Visual generation"],
     },
     {
@@ -111,6 +111,7 @@ const publications = [
             { label: "Code", url: "https://github.com/Jixuan-Fan/Momentum-GS" }
         ],
         description: "We propose Momentum-GS, a self-distillation approach for more accurate and efficient 3D Gaussian Splatting.",
+        selected: true,
         topics: ["Embodied Agent"],
     },
     {
@@ -121,6 +122,7 @@ const publications = [
         year: 2025,
         links: [],
         description: "We propose ScoreHOI, a framework for human-object interaction reconstruction via score-guided diffusion to enhance the physical plausibility.",
+        selected: true,
         topics: ["Embodied Agent"],
     },
     {
@@ -135,6 +137,7 @@ const publications = [
             { label: "Code", url: "https://github.com/Tengbo-Yu/AnyBimanual" }
         ],
         description: "We propose AnyBimanual, a plug-and-play method that transfers pretrained unimanual policy to general bimanual manipulation tasks with few demonstrations.",
+        selected: true,
         topics: ["Embodied Agent"],
     },
     {
@@ -201,6 +204,7 @@ const publications = [
             { label: "Project Page", url: "https://github.com/shiyi-zh0408/FlexiAct" }
         ],
         description: "We achieve action transfer in heterogeneous scenarios with varying spatial structures or cross-domain subjects.",
+        selected: true,
         topics: ["Visual generation"],
     },
     {
@@ -215,6 +219,7 @@ const publications = [
             { label: "Code", url: "https://github.com/Yxxxb/VoCo-LLaMA" }
         ],
         description: "We propose VoCo-LLaMA, the first approach to compress vision information utilizing the LLMs' understanding paradigm, which can compress hundreds of vision tokens into a single VoCo token with minimal visual information loss.",
+        selected: true,
         topics: ["Multimodal understanding"],
     },
     {
@@ -240,6 +245,7 @@ const publications = [
             { label: "arXiv", url: "https://arxiv.org/abs/2506.01558" }
         ],
         description: "We propose a novel framework called SAM2-LOVE to effectively segment the video objects referred by the audio and text and achieve significant improvement in Ref-AVS tasks.",
+        selected: true,
         topics: ["Multimodal understanding"],
     },
     {
@@ -267,7 +273,7 @@ const publications = [
             { label: "Code", url: "https://github.com/nlpxucan/WizardLM" }
         ],
         description: "We propose a new fully AI-powered automatic reinforcement learning method, Reinforcement Learning from Evol-Instruct Feedback (RLEIF), alongside Math Evol-Instruct and Process Supervision, for improving reasoning performance.",
-        selected: true,
+        selected: false,
         topics: ["Multimodal understanding"],
     },
     {
@@ -281,6 +287,7 @@ const publications = [
             { label: "Project Page", url: "https://guanxinglu.github.io/thinkbot/" }
         ],
         description: "We have presented a ThinkBot agent that reasons the thought chain for missing instruction recovery in embodied instruction following (EIF) tasks.",
+        selected: true,
         topics: ["Embodied Agent"],
     },
     {
@@ -459,7 +466,7 @@ const publications = [
             { label: "Code", url: "https://github.com/EternalEvan/FlowIE" }
         ],
         description: "We proposed a unified framework for various efficient image enhancement tasks with generative diffusion priors.",
-        selected: true,
+        selected: false,
         topics: ["Visual generation"],
     },
     {
