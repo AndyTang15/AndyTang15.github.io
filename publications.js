@@ -71,7 +71,7 @@ const publications = [
         ],
         description: "OccNeRF is a LiDAR-free method for 3D occupancy prediction that leverages multi-camera images, temporal photometric consistency, and open-vocabulary segmentation for supervision.",
         selected: true,
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/tcsvt.png",
@@ -112,7 +112,7 @@ const publications = [
         ],
         description: "We propose Momentum-GS, a self-distillation approach for more accurate and efficient 3D Gaussian Splatting.",
         selected: true,
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/scorehoi.png",
@@ -123,7 +123,7 @@ const publications = [
         links: [],
         description: "We propose ScoreHOI, a framework for human-object interaction reconstruction via score-guided diffusion to enhance the physical plausibility.",
         selected: true,
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/anybimanual.png",
@@ -138,7 +138,7 @@ const publications = [
         ],
         description: "We propose AnyBimanual, a plug-and-play method that transfers pretrained unimanual policy to general bimanual manipulation tasks with few demonstrations.",
         selected: true,
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/flashvstream.jpg",
@@ -191,7 +191,7 @@ const publications = [
             { label: "Code", url: "https://github.com/April-Yz/ManiGaussian_Bimanual" }
         ],
         description: "We propose ManiGaussian++, a hierarchical Gaussian world model that captures multi-body dynamics for improved multi-task bimanual manipulation.",
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/flexiact.jpg",
@@ -288,7 +288,7 @@ const publications = [
         ],
         description: "We have presented a ThinkBot agent that reasons the thought chain for missing instruction recovery in embodied instruction following (EIF) tasks.",
         selected: true,
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/instarevive.png",
@@ -342,7 +342,7 @@ const publications = [
             { label: "Code", url: "https://github.com/GuanxingLu/ManiGaussian" }
         ],
         description: "We propose a dynamic Gaussian Splatting method named ManiGaussian for multi-task robotic manipulation, which mines scene dynamics via future scene reconstruction.",
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/motionlcm.png",
@@ -591,7 +591,7 @@ const publications = [
             { label: "中文解读", url: "https://mp.weixin.qq.com/s/h-8O1kFxX_IVzFB6bCNrvg" }
         ],
         description: "We present Bi-level Neural Volume Fusion, which leverages recent advances in neural implicit representations and neural rendering for dense 3D reconstruction. In order to incrementally integrate new depth maps into a global neural implicit representation, we propose a novel bi-level fusion strategy that considers both efficiency and reconstruction quality by design.",
-        topics: ["Embodied Agent"],
+        topics: ["Embodied agent"],
     },
     {
         image: "images/denseclip.png",
