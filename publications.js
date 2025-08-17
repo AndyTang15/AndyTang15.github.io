@@ -101,6 +101,20 @@ const publications = [
         topics: ["Visual generation"],
     },
     {
+        image: "images/gwm.png",
+        title: "GWM: Towards Scalable Gaussian World Models for Robotic Manipulation",
+        authors: "Guanxing Lu*, Baoxiong Jia*, Puhao Li*, Yixin Chen, Ziwei Wang, <strong>Yansong Tang#</strong>, Siyuan Huang#",
+        venue: "IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>)",
+        year: 2025,
+        links: [
+            { label: "Paper", url: "https://ziweiwangthu.github.io/data/GWM.pdf" },
+            { label: "Project Page", url: "https://gaussian-world-model.github.io/" },
+        ],
+        description: "We introduce Gaussian World Model (GWM), a novel 3D world model that predicts future robot scenes using Gaussian Splatting, enabling more accurate policy training and outperforming previous state-of-the-art methods.",
+        selected: true,
+        topics: ["Embodied agent"],
+    },
+    {
         image: "images/momentum_gs.jpg",
         title: "Momentum-GS: Momentum Gaussian Self-Distillation for High-Quality Large Scene Reconstruction",
         authors: "Jixuan Fan*, Wanhua Li*, Yifei Han, Tianru Dai, <strong>Yansong Tang#</strong>",
