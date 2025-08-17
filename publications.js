@@ -1,13 +1,14 @@
 const publications = [
     {
-        image: "images/flag3dpp.png",
+        image: "images/FLAG3D.PNG",
         title: "FLAG3D++: A Benchmark for 3D Fitness Activity Comprehension With Language Instruction",
         authors: "<strong>Yansong Tang</strong>, Aoyang Liu, Jinpeng Liu, Shiyi Zhang, Wenxun Dai, Jie Zhou, Xiu Li, Jiwen Lu",
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
         year: 2025,
         links: [
             { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11082527" },
-            { label: "Code", url: "https://github.com/AndyTang15/FLAG3Dv2" }
+            { label: "Code", url: "https://github.com/AndyTang15/FLAG3Dv2" },
+            { label: "Conference Version", url: "https://openaccess.thecvf.com/content/CVPR2023/html/Tang_FLAG3D_A_3D_Fitness_Activity_Dataset_With_Language_Instruction_CVPR_2023_paper.html" }
         ],
         description: "We present FLAG3D++, a large-scale benchmark with 3D fitness activities and language instructions, along with a hierarchical model (HL-GCN) that effectively fuses language and pose data for counting and assessing actions, advancing research in human activity understanding.",
         selected: true,
