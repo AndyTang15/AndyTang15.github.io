@@ -135,7 +135,10 @@ const publications = [
         authors: "Ao Li, Jinpeng Liu, Yixuan Zhu, <strong>Yansong Tang#</strong>",
         venue: "IEEE/CVF International Conference on Computer Vision (<strong>ICCV</strong>)",
         year: 2025,
-        links: [],
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2509.07920" },
+            { label: "Code", url: "https://github.com/RammusLeo/ScoreHOI" }
+        ],
         description: "We propose ScoreHOI, a framework for human-object interaction reconstruction via score-guided diffusion to enhance the physical plausibility.",
         selected: true,
         topics: ["Embodied agent"],
