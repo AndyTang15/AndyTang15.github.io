@@ -1,5 +1,17 @@
 const publications = [
     {
+        image: "images/SAOC.jpg",
+        title: "Semantic-Assisted Object Clustering for Multi-Modal Referring Video Segmentation",
+        authors: "Yong Liu, Zhuoyan Luo, Yicheng Xiao, Yitong Wang, Shuyan Li, Xiu Li, Yujiu Yang, <strong>Yansong Tang#</strong>",
+        venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
+        year: 2025,
+        links: [
+        ],
+        description: "This work proposes a video-centric language-guided segmentation pipeline that achieves efficient video multi-modal alignment in a progressive frame-to-video aggregation manner.",
+        selected: true,
+        topics: ["Multimodal understanding"],
+    },
+    {
         image: "images/FLAG3D.PNG",
         title: "FLAG3D++: A Benchmark for 3D Fitness Activity Comprehension With Language Instruction",
         authors: "<strong>Yansong Tang</strong>, Aoyang Liu, Jinpeng Liu, Shiyi Zhang, Wenxun Dai, Jie Zhou, Xiu Li, Jiwen Lu",
