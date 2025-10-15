@@ -116,7 +116,7 @@ const publications = [
         image: "images/dreamlight.png",
         title: "DreamLight: Towards Harmonious and Consistent Image Relighting",
         authors: "Yong Liu*, Wenpeng Xiao*, Qianqian Wang, Junlin Chen, Yitong Wang, Shiyin Wang, Xinglong Wu, <strong>Yansong Tang#</strong>",
-        venue: "Conference on Neural Information Processing Systems, (<strong>NeurIPS</strong>)",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)",
         year: 2025,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2506.14549" },
@@ -351,7 +351,7 @@ const publications = [
         image: "images/geolrm.png",
         title: "GeoLRM: Geometry-Aware Large Reconstruction Model for High-Quality 3D Gaussian Generation",
         authors: "Chubin Zhang, Hongliang Song, Yi Wei, Chen Yu, Jiwen Lu, <strong>Yansong Tang#</strong>",
-        venue: "Thirty-eighth Conference on Neural Information Processing Systems, (<strong>NeurIPS</strong>)",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)",
         year: 2024,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2406.15333" },
@@ -365,7 +365,7 @@ const publications = [
         image: "images/q-vlm.png",
         title: "Q-VLM: Post-training Quantization for Large Vision-Language Models",
         authors: "Changyuan Wang, Ziwei Wang, Xiuwei Xu, <strong>Yansong Tang#</strong>, Jie Zhou, Jiwen Lu",
-        venue: "Conference on Neural Information Processing Systems, (<strong>NeurIPS</strong>)",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)",
         year: 2024,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2410.08119" },
@@ -517,7 +517,7 @@ const publications = [
         image: "images/MCUFormer.PNG",
         title: "MCUFormer: Deploying Vision Transformers on Microcontrollers with Limited Memory",
         authors: "Yinan Liang, Ziwei Wang, Xiuwei Xu, <strong>Yansong Tang#</strong>, Jie Zhou, Jiwen Lu",
-        venue: "Conference on Neural Information Processing Systems, (<strong>NeurIPS</strong>)",
+        venue: "Conference on Neural Information Processing Systems (<strong>NeurIPS</strong>)",
         year: 2023,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2310.16898" },
