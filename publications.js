@@ -127,7 +127,7 @@ const publications = [
         ],
         description: "We introduce DreamLight, a universal image relighting model that seamlessly blends subjects into new backgrounds with natural lighting consistency using both image and text prompts.",
         selected: true,
-        topics: ["Visual Generation"],
+        topics: ["Visual generation"],
     },
     {
         image: "images/gwm.png",
