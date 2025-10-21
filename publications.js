@@ -6,6 +6,8 @@ const publications = [
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
         year: 2025,
         links: [
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/11184493" },
+            { label: "Code", url: "https://github.com/yongliu20/MRVS_SOC" },
         ],
         description: "This work proposes a video-centric language-guided segmentation pipeline that achieves efficient video multi-modal alignment in a progressive frame-to-video aggregation manner.",
         selected: true,
@@ -18,7 +20,7 @@ const publications = [
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
         year: 2025,
         links: [
-            { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11082527" },
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/11082527" },
             { label: "Code", url: "https://github.com/AndyTang15/FLAG3Dv2" },
             { label: "Conference Version", url: "https://openaccess.thecvf.com/content/CVPR2023/html/Tang_FLAG3D_A_3D_Fitness_Activity_Dataset_With_Language_Instruction_CVPR_2023_paper.html" }
         ],
@@ -78,8 +80,9 @@ const publications = [
         venue: "IEEE Transactions on Image Processing (<strong>TIP</strong>)",
         year: 2025,
         links: [
-            { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/11003427" },
-            { label: "Project Page", url: "https://lin-shan.com/OccNeRF/" },
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/11003427" },
+            { label: "Project Page", url: "https://lin-shan.com/OccNeRF" },
+            { label: "Code", url: "https://github.com/LinShan-Bin/OccNeRF" },
             { label: "中文解读", url: "https://zhuanlan.zhihu.com/p/675196840?share_code=eax9MAU2N508&utm_psn=1910451444068388928" }
         ],
         description: "OccNeRF is a LiDAR-free method for 3D occupancy prediction that leverages multi-camera images, temporal photometric consistency, and open-vocabulary segmentation for supervision.",
@@ -93,7 +96,7 @@ const publications = [
         venue: "IEEE Transactions on Circuits and Systems for Video Technology (<strong>TCSVT</strong>)",
         year: 2025,
         links: [
-            { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/10963753" },
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/10963753" },
         ],
         description: "We propose InstantDreamer, a text-guided 3D generator that efficiently creates multi-view consistent 3D assets in one step without paired data, outperforming previous methods in speed and quality.",
         selected: false,
@@ -106,7 +109,7 @@ const publications = [
         venue: "IEEE Transactions on Multimedia (<strong>TMM</strong>)",
         year: 2024,
         links: [
-            { label: "Paper", url: "https://ieeexplore.ieee.org/abstract/document/10444967" },
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/10444967" },
         ],
         description: "We introduce StableSwap, a reversible autoencoder-based framework for stable and identity-consistent face swapping in a shared latent space, achieving superior performance and region-controllable editing compared to previous methods.",
         selected: false,
@@ -245,7 +248,7 @@ const publications = [
         year: 2025,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2505.03730" },
-            { label: "Project Page", url: "https://github.com/shiyi-zh0408/FlexiAct" }
+            { label: "Code", url: "https://github.com/shiyi-zh0408/FlexiAct" }
         ],
         description: "We achieve action transfer in heterogeneous scenarios with varying spatial structures or cross-domain subjects.",
         selected: true,
@@ -286,7 +289,8 @@ const publications = [
         venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)",
         year: 2025,
         links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2506.01558" }
+            { label: "arXiv", url: "https://arxiv.org/abs/2506.01558" },
+            { label: "Code", url: "https://github.com/VoyageWang/SAM2LOVE" }
         ],
         description: "We propose a novel framework called SAM2-LOVE to effectively segment the video objects referred by the audio and text and achieve significant improvement in Ref-AVS tasks.",
         selected: true,
