@@ -74,6 +74,21 @@ const publications = [
         topics: ["Multimodal understanding"],
     },
     {
+        image: "images/univg.jpg",
+        title: "UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning",
+        authors: "Sule Bai, Mingxing Li, Yong Liu, Jing Tang, Haoji Zhang, Lei Sun, Xiangxiang Chu, <strong>Yansong Tang#</strong>",
+        venue: "IEEE Transactions on Image Processing (<strong>TIP</strong>)",
+        year: 2025,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2505.14231" },
+            { label: "Code", url: "https://github.com/AMAP-ML/UniVG-R1" },
+            { label: "Project Page", url: "https://amap-ml.github.io/UniVG-R1-page/" }
+        ],
+        description: "We propose UniVG-R1, a reasoning guided MLLM for universal visual grounding.",
+        selected: true,
+        topics: ["Multimodal Reasoning"]
+    },
+    {
         image: "images/occnerf.jpg",
         title: "OccNeRF: Advancing 3D Occupancy Prediction in LiDAR-Free Environments",
         authors: "Chubin Zhang*, Juncheng Yan*, Yi Wei*, Jiaxin Li, Li Liu, <strong>Yansong Tang#</strong>, Yueqi Duan, Jiwen Lu",
