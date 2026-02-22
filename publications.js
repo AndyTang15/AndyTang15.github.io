@@ -74,19 +74,18 @@ const publications = [
         topics: ["Multimodal understanding"],
     },
     {
-        image: "images/univg.jpg",
-        title: "UniVG-R1: Reasoning Guided Universal Visual Grounding with Reinforcement Learning",
-        authors: "Sule Bai, Mingxing Li, Yong Liu, Jing Tang, Haoji Zhang, Lei Sun, Xiangxiang Chu, <strong>Yansong Tang#</strong>",
+        image: "images/scclip.png",
+        title: "Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation",
+        authors: "Sule Bai*, Yong Liu*, Yifei Han, Haoji Zhang, <strong>Yansong Tang#</strong>",
         venue: "IEEE Transactions on Image Processing (<strong>TIP</strong>)",
         year: 2025,
         links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2505.14231" },
-            { label: "Code", url: "https://github.com/AMAP-ML/UniVG-R1" },
-            { label: "Project Page", url: "https://amap-ml.github.io/UniVG-R1-page/" }
+            { label: "Paper", url: "https://ieeexplore.ieee.org/document/11291123" },
+            { label: "Code", url: "https://github.com/SuleBai/SC-CLIP" }
         ],
-        description: "We propose UniVG-R1, a reasoning guided MLLM for universal visual grounding.",
+        description: "We propose SC-CLIP, a training-free open-vocabulary segmentation framework that achieves competitive performance on various segmentation tasks.",
         selected: true,
-        topics: ["Multimodal Reasoning"]
+        topics: ["Multimodal understanding"],
     },
     {
         image: "images/occnerf.jpg",
