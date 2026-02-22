@@ -140,7 +140,7 @@ const publications = [
             { label: "arXiv", url: "https://arxiv.org/abs/2512.20745" },
         ],
         description: "",
-        selected: true,
+        selected: false,
         topics: ["Multimodal understanding"],
     },
     {
