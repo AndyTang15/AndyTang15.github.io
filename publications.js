@@ -76,7 +76,7 @@ const publications = [
     {
         image: "images/scclip.png",
         title: "Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation",
-        authors: "Sule Bai*, Yong Liu*, Yifei Han, Haoji Zhang, <strong>Yansong Tang#</strong>",
+        authors: "Sule Bai*, Yong Liu*, Yifei Han, Haoji Zhang, <strong>Yansong Tang#</strong>, Jie Zhou, Jiwen Lu",
         venue: "IEEE Transactions on Image Processing (<strong>TIP</strong>)",
         year: 2025,
         links: [
