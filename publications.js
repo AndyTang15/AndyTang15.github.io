@@ -47,7 +47,7 @@ const publications = [
         title: "Language-Aware Vision Transformer for Referring Segmentation",
         authors: "Zhao Yang*, Jiaqi Wang*, Xubing Ye*, <strong>Yansong Tang#</strong>, Kai Chen, Hengshuang Zhao, Philip H.S. Torr",
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
-        year: 2024,
+        year: 2025,
         links: [
             { label: "Paper", url: "https://doi.org/10.1109/TPAMI.2024.3468640" },
             { label: "Code", url: "https://github.com/Yxxxb/LAVT-RS" },
