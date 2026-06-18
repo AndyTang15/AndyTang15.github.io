@@ -130,6 +130,50 @@ const publications = [
         topics: ["Visual generation"],
     },
     {
+        image: "images/hiors.png",
+        title: "Human-in-the-loop Online Rejection Sampling for Robotic Manipulation",
+        authors: "Guanxing Lu*, Rui Zhao*, Haitao Lin, He Zhang, <strong>Yansong Tang#</strong>",
+        venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2510.26406" },
+            { label: "Code", url: "https://github.com/hiors-project/hiors" },
+            { label: "Project Page", url: "https://hiors-project.github.io/" }
+        ],
+        description: "",
+        selected: false,
+        topics: ["Embodied agent"],
+    },
+    {
+        image: "images/vla-rl.png",
+        title: "VLA-RL: Towards Masterful and General Robotic Manipulation with Scalable Reinforcement Learning",
+        authors: "Guanxing Lu, Wenkai Guo, Chubin Zhang, Yuheng Zhou, Haonan Jiang, Zifeng Gao, <strong>Yansong Tang#</strong>, Ziwei Wang",
+        venue: "IEEE/RSJ International Conference on Intelligent Robots and Systems (<strong>IROS</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2505.18719" },
+            { label: "Code", url: "https://github.com/GuanxingLu/vlarl" }
+        ],
+        description: "",
+        selected: true,
+        topics: ["Embodied agent"],
+    },
+    {
+        image: "images/metacot.png",
+        title: "Meta-CoT: Enhancing Granularity and Generalization in Image Editing",
+        authors: "Shiyi Zhang*, Yiji Cheng*, Tiankai Hang*, Zijin Yin, Runze He, Yu Xu, Wenxun Dai, Yunlong Lin, Chunyu Wang, Qinglin Lu, <strong>Yansong Tang#</strong>",
+        venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (<strong>CVPR</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2604.24625" },
+            { label: "Code", url: "https://github.com/shiyi-zh0408/Meta-CoT" },
+            { label: "Project Page", url: "https://shiyi-zh0408.github.io/projectpages/Meta-CoT/" },
+        ],
+        description: "",
+        selected: false,
+        topics: ["Visual generation"],
+    },
+    {
         image: "images/vital.png",
         title: "Thinking With Videos: Multimodal Tool-Augmented Reinforcement Learning for Long Video Reasoning",
         authors: "Haoji Zhang*, Xin Gu*, Jiawen Li, Chixiang Ma, Sule Bai, Chubin Zhang, Bowen Zhang, Zhichao Zhou, Dongliang He, <strong>Yansong Tang#</strong>",
@@ -147,15 +191,30 @@ const publications = [
     {
         image: "images/agentmath.png",
         title: "AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent",
-        authors: "Haipeng Luo, Huawen Feng, Qingfeng Sun, Can Xu, Kai Zheng, Yufei Wang, Tao Yang, Han Hu, <strong>Yansong Tang#</strong>, Di Wang",
+        authors: "Haipeng Luo, Huawen Feng, Qingfeng Sun, Can Xu, Kai Zheng, Yufei Wang, Tao Yang, Han Hu, <strong>Yansong Tang#</strong>",
         venue: "The Fourteenth International Conference on Learning Representations (<strong>ICLR</strong>)",
         year: 2026,
         links: [
-            { label: "arXiv", url: "https://arxiv.org/abs/2512.20745" },
+            { label: "Paper", url: "https://openreview.net/pdf?id=e2s7YHeVZW" },
         ],
         description: "",
         selected: false,
         topics: ["Multimodal understanding"],
+    },
+    {
+        image: "images/VARestorer.png",
+        title: "VARestorer: One-Step VAR Distillation for Real-World Image Super-Resolution",
+        authors: "Yixuan Zhu*, Shilin Ma*, Haolin Wang, Ao Li, Yanzhe Jing, <strong>Yansong Tang#</strong>, Lei Chen, Jiwen Lu, Jie Zhou",
+        venue: "The Fourteenth International Conference on Learning Representations (<strong>ICLR</strong>)",
+        year: 2026,
+        links: [
+            { label: "Paper", url: "https://openreview.net/pdf?id=T2Oihh7zN8" },
+            { label: "Code", url: "https://github.com/EternalEvan/VARestorer" },
+            { label: "Project Page", url: "https://eternalevan.github.io/VARestorer-proj/" },
+        ],
+        description: "",
+        selected: false,
+        topics: ["Visual generation"],
     },
     {
         image: "images/dreamlight.png",
