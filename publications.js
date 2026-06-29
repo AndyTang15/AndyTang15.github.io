@@ -157,6 +157,34 @@ const publications = [
         topics: ["Embodied agent"],
     },
     {
+        image: "images/embed_rl.png",
+        title: "Embed-RL: Reinforcement Learning for Reasoning-Driven Multimodal Embeddings",
+        authors: "Haonan Jiang*, Yuji Wang*, Yongjie Zhu, Xin Lu, Wenyu Qin, Meng Wang, Pengfei Wan, <strong>Yansong Tang#</strong>",
+        venue: "The European Conference on Computer Vision (<strong>ECCV</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2602.13823" },
+            { label: "Code", url: "https://github.com/ZoengHN/Embed-RL/" }
+        ],
+        description: "",
+        selected: false,
+        topics: ["Multimodal understanding"],
+    },
+    {
+        image: "images/ddavs.png",
+        title: "DDAVS: Disentangled Audio Semantics and Delayed Bidirectional Alignment for Audio-Visual Segmentation",
+        authors: "Jingqi Tian, Yiheng Du, Haoji Zhang, Yuji Wang, Isaac Ning Lee, Xulong Bai, Tianrui Zhu, Jingxuan Niu, <strong>Yansong Tang#</strong>",
+        venue: "The European Conference on Computer Vision (<strong>ECCV</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2512.20117" },
+            { label: "Project Page", url: "https://trilarflagz.github.io/DDAVS-page/" }
+        ],
+        description: "",
+        selected: false,
+        topics: ["Multimodal understanding"],
+    },
+    {
         image: "images/hiors.png",
         title: "Human-in-the-loop Online Rejection Sampling for Robotic Manipulation",
         authors: "Guanxing Lu*, Rui Zhao*, Haitao Lin, He Zhang, <strong>Yansong Tang#</strong>",
