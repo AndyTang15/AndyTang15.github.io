@@ -130,6 +130,33 @@ const publications = [
         topics: ["Visual generation"],
     },
     {
+        image: "images/TAIHRI.png",
+        title: "TAIHRI: Task-Aware 3D Human Keypoints Localization for Close-Range Human-Robot Interaction",
+        authors: "Ao Li*, Yonggen Ling*, Yiyang Lin, Yuji Wang, Yong Deng, <strong>Yansong Tang#</strong>",
+        venue: "The European Conference on Computer Vision (<strong>ECCV</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2604.08921" },
+            { label: "Code", url: "https://github.com/Tencent/TAIHRI" },
+        ],
+        description: "",
+        selected: true,
+        topics: ["Embodied agent"],
+    },
+    {
+        image: "images/safe_pruner.png",
+        title: "SAFE-Pruner: Semantic Attention-Guided Future-Aware Token Pruning for Efficient Vision-Language-Action Manipulation",
+        authors: "Shilin Ma, Chubin Zhang, Changyuan Wang, Yuji Wang, Yue Wu, Zixuan Wang, Jingqi Tian, Zheng Zhu, <strong>Yansong Tang#</strong>",
+        venue: "The European Conference on Computer Vision (<strong>ECCV</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2605.29662" },
+        ],
+        description: "",
+        selected: true,
+        topics: ["Embodied agent"],
+    },
+    {
         image: "images/hiors.png",
         title: "Human-in-the-loop Online Rejection Sampling for Robotic Manipulation",
         authors: "Guanxing Lu*, Rui Zhao*, Haitao Lin, He Zhang, <strong>Yansong Tang#</strong>",
