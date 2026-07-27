@@ -53,7 +53,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function renderByDate() {
         setActive(btnDate);
         let html = '';
-        years.forEach(year => {
+        const recentYears = years.filter(y => y >= 2024 && y <= 2026);
+        recentYears.forEach(year => {
             html += `<h3 id="year-${year}" class="pub-sticky-header">${year}</h3>`;
             html += publications.filter(p => p.year === year).map(renderPub).join('');
         });
@@ -97,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Initial render
-    renderSelected();
+    renderByDate();
 
     // Event listeners
     btnSelected.onclick = function () {

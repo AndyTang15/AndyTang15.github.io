@@ -4,7 +4,7 @@ const publications = [
         title: "Semantic-Assisted Object Clustering for Multi-Modal Referring Video Segmentation",
         authors: "Yong Liu, Zhuoyan Luo, Yicheng Xiao, Yitong Wang, Shuyan Li, Xiu Li, Yujiu Yang, <strong>Yansong Tang#</strong>",
         venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence (<strong>TPAMI</strong>)",
-        year: 2025,
+        year: 2026,
         links: [
             { label: "Paper", url: "https://ieeexplore.ieee.org/document/11184493" },
             { label: "Code", url: "https://github.com/yongliu20/MRVS_SOC" },
