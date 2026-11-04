@@ -76,7 +76,7 @@ const publications = [
     {
         image: "images/clap.webp",
         title: "CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos",
-        authors: "Chubin Zhang, Jianan Wang, Zifeng Gao, Yue Su, Tianru Dai, Cai Zhou, Jiwen Lu, <strong>Yansong Tang</strong>",
+        authors: "Chubin Zhang, Jianan Wang, Zifeng Gao, Yue Su, Tianru Dai, Cai Zhou, Jiwen Lu, <strong>Yansong Tang#</strong>",
         venue: "IEEE Transactions on Robotics (<strong>TRO</strong>)",
         year: 2026,
         links: [
