@@ -74,6 +74,21 @@ const publications = [
         topics: ["Multimodal understanding"],
     },
     {
+        image: "images/clap.webp",
+        title: "CLAP: Contrastive Latent Action Pretraining for Learning Vision-Language-Action Models from Human Videos",
+        authors: "Chubin Zhang, Jianan Wang, Zifeng Gao, Yue Su, Tianru Dai, Cai Zhou, Jiwen Lu, <strong>Yansong Tang</strong>",
+        venue: "IEEE Transactions on Robotics (<strong>TRO</strong>)",
+        year: 2026,
+        links: [
+            { label: "arXiv", url: "https://arxiv.org/abs/2601.04061" },
+            { label: "Project Page", url: "https://lin-shan.com/OpenCLAP" },
+            { label: "Code", url: "https://github.com/LinShan-Bin/OpenCLAP" },
+        ],
+        description: "Transfers manipulation skills from human videos to robots by contrastively aligning visual transitions with an executable latent action vocabulary.",
+        selected: true,
+        topics: ["Embodied agent"],
+    },
+    {
         image: "images/scclip.png",
         title: "Self-Calibrated CLIP for Training-Free Open-Vocabulary Segmentation",
         authors: "Sule Bai*, Yong Liu*, Yifei Han, Haoji Zhang, <strong>Yansong Tang#</strong>, Jie Zhou, Jiwen Lu",
