@@ -81,7 +81,7 @@ const publications = [
         year: 2026,
         links: [
             { label: "arXiv", url: "https://arxiv.org/abs/2601.04061" },
-            { label: "Project Page", url: "https://lin-shan.com/OpenCLAP" },
+            { label: "Project Page", url: "https://lin-shan.com/CLAP" },
             { label: "Code", url: "https://github.com/LinShan-Bin/OpenCLAP" },
         ],
         description: "Transfers manipulation skills from human videos to robots by contrastively aligning visual transitions with an executable latent action vocabulary.",
